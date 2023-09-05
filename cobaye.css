@@ -1,0 +1,173 @@
+h1,h2,h3,h4
+{
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    font-style:italic;
+    text-decoration: underline;
+    text-shadow: 6px 6px 15px rgb(29, 49, 63);
+    margin: 10px;
+}
+
+h1
+{
+    color:rgba(0, 0, 0,0.8);
+    background: linear-gradient(90deg, #8360c3, #05f0a5);
+    font-size: 3.5em;
+    margin: 25px;
+    border-radius: 20px;
+    text-shadow: 8px 8px 40px rgb(18, 20, 25);
+    box-shadow: 20px 20px 15px rgb(0, 0, 0);
+}
+
+a
+{
+    font-style:italic;
+    font-weight: 100;
+    text-align: justify;
+    font-family: normal;
+    /* box-shadow: 2px 2px 4px rgb(33, 42, 125); */
+    text-decoration:none;
+    color:rgb(18, 4, 202);
+}
+
+a:hover
+{
+    transition: 0.3s;
+    text-decoration:underline;
+    box-shadow: 10px 10px 15px rgb(24, 23, 23);
+}
+
+a:visited
+{
+    color: rgb(172, 26, 116);
+}
+
+p
+{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+th
+{
+    font-family: 'Lobster', sans-serif;
+    background-color: rgba(232, 248, 248, 0.8);
+}
+
+body,#two,#three
+{
+    margin: 0;
+    padding: 0px;
+    /* filter: opacity(50%); */
+    color:rgb(0, 0, 0);
+    background-image: url(https://media.istockphoto.com/id/519014202/photo/french-to-english-translation.jpg?s=612x612&w=is&k=20&c=SeM0sW3d_TyJfUv84dH-yl77eQPQ1Jd47ZNehsVX-_M=);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center center;
+}
+
+li
+{
+    text-align: left;
+}
+
+b u
+{
+    color:rgba(70, 60, 216, 0.7);
+}
+
+b,u
+{
+    color:rgba(0, 0, 0,0.7);
+}
+
+.non-centrer
+{
+    text-align: normal;
+}
+
+.footer
+{
+    color:rgba(17, 0, 255, 0.8);
+    text-decoration: none;
+    background: linear-gradient(90deg, #8360c3, #05f0a5);
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px rgb(18, 20, 25);
+}
+
+.footer:hover
+{
+    transition: 0.5s;
+    background: linear-gradient(90deg, #ae94de, #8de6ca);
+    box-shadow: 20px 20px 40px rgb(52, 57, 71);
+}
+
+.sommaire
+{
+   background-color: rgb(54, 234, 234,0.7); 
+   margin: 10px;
+   padding: 30px;
+}
+
+.sommaire a h3
+{
+    font-style:italic;
+    font-weight: 100;
+    text-align: justify;
+    /* box-shadow: 2px 2px 4px rgb(33, 42, 125); */
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+}
+
+.sommaire a h3:hover
+{
+    transition: 0.5s;
+    text-decoration:underline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sommaire a li
+{
+    font-family: 'Lobster', sans-serif;
+    font-style:italic;
+    font-weight: 100;
+    text-align: justify;
+    text-shadow: 8px 8px 40px rgb(18, 20, 25);
+    /* box-shadow: 2px 2px 4px rgb(33, 42, 125); */
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.sommaire a li:hover
+{
+    transition: 0.5s;
+    text-decoration:underline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#two
+{
+    background-image: url(https://media.istockphoto.com/id/1199662606/photo/world-languages.jpg?s=612x612&w=is&k=20&c=QYHgcWqyX79z1SqRg29-f_VVEdcK9K_3WVh6LiW4O6Y=);
+}
+
+#three
+{
+    background-image: url(https://media.istockphoto.com/id/157313647/fr/photo/fran%C3%A7ais-et-drapeaux-britanniques.webp?b=1&s=170667a&w=0&k=20&c=tsbGP0cjxf8l7JF7XKHXfx5D7WOXbDEcEqlBQI2_DyU=);
+}
+
+ #background_opacity 
+{ 
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.7); /* L'opacite se regle ici */
+    padding: 80px;
+    margin: 0px;
+}
